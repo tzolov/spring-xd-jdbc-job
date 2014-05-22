@@ -11,21 +11,21 @@ Set the environment variable `XD_HOME` to the Spring-XD installation directory
 
 Create Jdbc job module folders:
 
-	mkdir ${XD_HOME}/xd/modules/job/jdbc
-	mkdir ${XD_HOME}/xd/modules/job/jdbc/lib
-	mkdir ${XD_HOME}/xd/modules/job/jdbc/config
+	mkdir ${XD_HOME}/modules/job/jdbc
+	mkdir ${XD_HOME}/modules/job/jdbc/lib
+	mkdir ${XD_HOME}/modules/job/jdbc/config
   
 Build the Jdbc job jar:
 
 	mvn clean install
 
-Copy the result `xd-jdbc-module-0.0.1-SNAPSHOT.jar` into `${XD_HOME}/xd/modules/job/jdbc/lib`	
+Copy the result `xd-jdbc-module-0.0.1-SNAPSHOT.jar` into `${XD_HOME}/modules/job/jdbc/lib`	
 	
-	cp target/xd-jdbc-module-0.0.1-SNAPSHOT.jar `${XD_HOME}/xd/modules/job/jdbc/lib`
+	cp target/xd-jdbc-module-0.0.1-SNAPSHOT.jar `${XD_HOME}/modules/job/jdbc/lib`
 
-Copy the `jdbc.xml` and `jdbc.properties` module definition into `${XD_HOME}/xd/modules/job/jdbc/config`	
+Copy the `jdbc.xml` and `jdbc.properties` module definition into `${XD_HOME}/modules/job/jdbc/config`	
 	
-	cp src/main/resources/jdbc.* ${XD_HOME}/xd/modules/job/jdbc/config
+	cp src/main/resources/jdbc.* ${XD_HOME}/modules/job/jdbc/config
 
 ## Usage
 
