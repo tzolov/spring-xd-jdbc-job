@@ -1,0 +1,14 @@
+.gradle
+bin
+build
+target
+.settings
+.classpath
+.project
+*.iml
+*.ipr
+*.iws
+*.log
+metastore_db
+.idea
+
