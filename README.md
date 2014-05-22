@@ -1,6 +1,8 @@
 spring-xd-jdbc
 ===================
 
+Simple [Jdbc] Job module for [Spring-XD].
+
 ## Build and Installation
 
 Set the environment variable `XD_HOME` to the Spring-XD installation directory
